@@ -1,0 +1,5 @@
+To provide space for the input of student information we use the input function but first we equate variables to certain input functions to make work easier for e.g Name= input("Student's Full Name:" ). NB: This is for string data type(alphanumeric data).
+To do this for interger data types that can be used in calculation we use the int function first before input e.g Math= int(input("Math Score"))
+To perform the calculations we form formulas with the variables and various arithmetic operators like +, -, /, *, etc e.g. Totalscore= Math+English
+To display the information in the format like the one used in main.py we used print function and f string data e.g. print(f"Mathematics: {Math}")
+In the case of Percentage and Average score in order to ensure 2 decimal place we use :.2f e.g. print(f"Percentage: {Percentage:.2f}")
