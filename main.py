@@ -11,3 +11,19 @@ TotalScore= Mathematics+English+Physics+Chemistry+ComputerScience
 AverageScore= TotalScore/5
 Percentage= (TotalScore/500)*100
 MarksRemaining= 500-TotalScore
+print("STUDENT RESULT REPORT")
+print(f"Name: {Name}")
+print(f"Age: {Age}")
+print(f"Class: {Class}")
+print(f"Reg Number: {Regnumber}")
+print("SCORES")
+print(f"Mathematics: {Mathematics}")
+print(f"English: {English}")
+print(f"Physics: {Physics}")
+print(f"Chemistry: {Chemistry}")
+print(f"Computer Science: {ComputerScience}")
+print("SUMMARY")
+print(f"Total Score: {TotalScore}")
+print(f"Average Score: {AverageScore:.2f}")
+print(f"Percentage: {Percentage:.2%}")
+print(f"Marks Remaining: {MarksRemaining}")
